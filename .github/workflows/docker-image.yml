@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag Ayush_web:$(date +%s)
+      run: docker build . --file Dockerfile --tag ayush_web:$(date +%s)
